@@ -1,0 +1,98 @@
+[
+    {
+        "isbn": "9780553593716",
+        "title": "A Game of Thrones",
+        "author": "George RR Martin",
+        "subject": "fantasy",
+        "media_type": "book",
+        "qty": 10
+    },
+    {
+        "isbn": "9780394800165",
+        "title": "Green Eggs and Ham",
+        "author": "Dr. Seuss",
+        "subject": "children",
+        "media_type": "book",
+        "qty": 1
+    },
+    {
+        "isbn": "9780547928227",
+        "title": "The Hobbit",
+        "author": "JRR Tolkien",
+        "subject": "fantasy",
+        "media_type": "book",
+        "qty": 4
+    },
+    {
+        "isbn": "9780062238863",
+        "title": "American Sniper",
+        "author": "Chris Kyle",
+        "subject": "biography",
+        "media_type": "book",
+        "qty": 2
+    },
+    {
+        "isbn": "9781401232597",
+        "title": "Batman the Long Halloween",
+        "author": "Jeph Loeb",
+        "subject": "comics",
+        "media_type": "book",
+        "qty": 3
+    },
+    {
+        "isbn": "9780553418026",
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "subject": "science fiction",
+        "media_type": "book",
+        "qty": 3
+    },
+    {
+        "isbn": "STARWARS",
+        "title": "Star Wars",
+        "author": "George Lucas",
+        "subject": "science fiction",
+        "media_type": "video",
+        "qty": 3
+    },
+    {
+        "isbn": "BATMAN",
+        "title": "Batman",
+        "author": "Tim Burton",
+        "subject": "action",
+        "media_type": "video",
+        "qty": 3
+    },
+    {
+        "isbn": "THEMARTIAN",
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "subject": "science fiction",
+        "media_type": "video",
+        "qty": 3
+    },
+    {
+        "isbn": " 9780807281956",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "JK Rowling",
+        "subject": "children",
+        "media_type": "audiobook",
+        "qty": 3
+    },
+    {
+        "isbn": " 9780807281956",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "JK Rowling",
+        "subject": "children",
+        "media_type": "audiobook",
+        "qty": 3
+    },
+    {
+        "isbn": "9780142428221",
+        "title": "Christine",
+        "author": "Stephen King",
+        "subject": "horror",
+        "media_type": "audiobook",
+        "qty": "3"
+    }
+]

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="lms">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Management System</title>
+    <!-- inject-vendor:css -->
+    <link rel="stylesheet" href="../stylesheets/vendor/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../stylesheets/vendor/font-awesome.css"/>
+
+    <!-- inject: css -->
+    <link rel="stylesheet" href="../stylesheets/style.css"/>
+
+    <!-- inject-vendor:js -->
+    <script src="../lib/angular/angular.js"></script>
+    <script data-require="angular-route@1.4.3" data-semver="1.4.3"
+            src="https://code.angularjs.org/1.4.3/angular-route.js"></script>
+    <script src="../lib/angular-bootstrap/ui-bootstrap.js"></script>
+    <!--script src="../lib/angular-animate/angular-animate.js"></script-->
+
+    <!-- inject:js -->
+    <script src="../js/appRoutes.js"></script>
+    <script src="../js/angularApp.js"></script>
+    <script src="../js/controllers/mainController.js"></script>
+    <script src="../js/services/dataService.js"></script>
+
+</head>
+<body ng-controller="mainController">
+
+
+<header>
+    <h1 class="head-title">LIBRARY MANAGEMENT SYSTEM</h1>
+
+    <nav ng-if="userAuthorized">
+        <a href="#/search">Search</a> |
+        <a href="#/account">Account</a> |
+        <a href="#/holds">Holds</a> |
+        <a href="#/addmedia">Add New Media</a>
+        <a href="" class="pull-right"><strong>Logged in as:</strong> {{loggedin.firstname}} {{loggedin.lastname}}</a>
+    </nav>
+    <nav ng-if="!userAuthorized"><a href="#/register">Register</a></nav>
+</header>
+
+<div ng-view>
+
+</div>
+
+</body>
+</html>

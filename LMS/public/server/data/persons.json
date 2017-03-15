@@ -1,0 +1,71 @@
+[
+    {
+        "person_id": 1,
+        "firstname": "Sarah",
+        "lastname": "Maroon",
+        "email": "fullersa@my.easternct.edu",
+        "username": "smaroon",
+        "password": "password",
+        "checked_out": [
+            {
+                "isbn": "9780394800165",
+                "title": "Green Eggs and Ham",
+                "author": "Dr. Seuss",
+                "subject": "children",
+                "media_type": "book",
+                "datedue": "2016-05-15T01:03:34.332Z"
+            },
+            {
+                "isbn": "9780547928227",
+                "title": "The Hobbit",
+                "author": "JRR Tolkien",
+                "subject": "fantasy",
+                "media_type": "book",
+                "datedue": "2016-05-15T01:03:34.332Z"
+            },
+            {
+                "isbn": "9780553418026",
+                "title": "The Martian",
+                "author": "Andy Weir",
+                "subject": "science fiction",
+                "media_type": "book",
+                "datedue": "2016-05-15T01:03:34.332Z"
+            },
+            {
+                "isbn": "9781401232597",
+                "title": "Batman the Long Halloween",
+                "author": "Jeph Loeb",
+                "subject": "comics",
+                "media_type": "book",
+                "datedue": "2016-05-15T01:03:34.332Z"
+            }
+        ]
+    },
+    {
+        "person_id": 2,
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "testing@email.com",
+        "username": "john",
+        "password": "password1",
+        "checked_out": []
+    },
+    {
+        "person_id": 3,
+        "firstname": "Alan",
+        "lastname": "Turing",
+        "email": "alan.turing@internet.com",
+        "username": "alan",
+        "password": "welcome1",
+        "checked_out": []
+    },
+    {
+        "person_id": 4,
+        "firstname": "Paul",
+        "lastname": "Dini",
+        "email": "paul.dini@gmail.com",
+        "username": "paul.dini",
+        "password": "test",
+        "checked_out": []
+    }
+]

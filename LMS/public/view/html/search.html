@@ -1,0 +1,32 @@
+<div class="container">
+<form>
+    <div class="form-group" >
+        <input type="radio" name="search-item" value="media_type" ng-model="search_type"> Media Type
+        <input type="radio" name="search-item" value="title" ng-model="search_type"> Title
+        <input type="radio" name="search-item" value="author" ng-model="search_type"> Author
+        <input type="radio" name="search-item" value="isbn" ng-model="search_type"> ISBN
+        <input type="radio" name="search-item" value="subject" ng-model="search_type"> Subject
+        <input type="radio" name="search-item" value="person" ng-model="search_type"> Persons
+
+
+        <br><label class="padding-top: 5px;">Search:</label>
+        <input type="text"
+               class="form-control"
+               placeholder="Search"
+               ng-model="searchItem"/><br>
+        <button type="submit" class="btn btn-primary" ng-click="performSearch(search_type, searchItem)">Submit</button>
+    </div>
+</form>
+    <div ng-repeat="item in searchResults track by $index">
+        <strong>Result # {{$index+1}}</strong>
+        <ul>
+            <li><label>Title: </label>  {{item.title}}</li>
+            <li><label>Author: </label>  {{item.author}}</li>
+            <li><label>ISBN: </label>  {{item.isbn}}</li>
+            <li><label>Subject: </label>  {{item.subject}}</li>
+            <li><label>Media Type: </label>  {{item.media_type}}</li>
+            <li><label>Quantity: </label>  {{item.qty}}</li>
+        </ul>
+        <button type="submit" class="btn btn-primary" ng-click="checkout(item)">Check out</button>
+    </div>
+</div>

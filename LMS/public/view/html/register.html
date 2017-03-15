@@ -1,0 +1,38 @@
+<div class="container">
+    <div style="color: red" ng-repeat="error in errors">{{error}}</div>
+    <form>
+        <div class="form-group">
+            <label>First Name: </label> <input type="text"
+                   class="form-control"
+                   placeholder="First Name"
+                   ng-model="newUser.firstname"/>
+        </div>
+        <div class="form-group">
+        <label>Last Name: </label><input type="text"
+                   class="form-control"
+                   placeholder="Last Name"
+                   ng-model="newUser.lastname"/>
+            </div>
+        <div class="form-group">
+        <label>Email: </label><input type="text"
+                   class="form-control"
+                   placeholder="email"
+                   ng-model="newUser.email"/>
+            </div>
+        <div class="form-group">
+        <label> Username: </label><input type="text"
+                   class="form-control"
+                   placeholder="User Name"
+                   ng-model="newUser.username"/>
+            </div>
+        <div class="form-group">
+        <label>Password: </label><input type="text"
+                   class="form-control"
+                   placeholder="Password"
+                   ng-model="newUser.password"/>
+            </div>
+            <button type="submit" class="btn btn-primary" ng-click="registerNewUser(newUser)">Register</button>
+
+
+    </form>
+</div>

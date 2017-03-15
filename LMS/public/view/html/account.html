@@ -1,0 +1,25 @@
+<div class="container">
+    <div><h2>Current Media</h2></div>
+
+    <table>
+        <tr>
+            <td>Title</td>
+            <td>Author</td>
+            <td>Subject</td>
+            <td>Media Type</td>
+            <td>ISBN</td>
+            <td>Date Due</td>
+            <td>Return</td>
+        </tr>
+        <tr ng-repeat="item in loggedin.checked_out">
+            <td>{{item.title}}</td>
+            <td>{{item.author}}</td>
+            <td>{{item.subject}}</td>
+            <td>{{item.media_type}}</td>
+            <td>{{item.isbn}}</td>
+            <td>{{getFormattedDate(item.datedue)}}</td>
+            <td><button ng-click="checkin(item.isbn)" type="submit" class="btn btn-xs">Return</button></td>
+        </tr>
+
+    </table>
+</div>
