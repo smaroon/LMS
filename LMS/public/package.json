@@ -1,0 +1,10 @@
+{
+  "name": "lms",
+  "main": "client",
+  "version": "0.0.1",
+  "dependencies": {
+	"angular": "1.4.3",
+	"angular-ui-bootstrap": "0.12.1",
+	"angular-route": "1.4.3"
+  }
+}

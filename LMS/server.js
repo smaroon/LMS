@@ -46,7 +46,6 @@ router.get('/', function (req, res) {
     res.json({message: 'Testing api message.'});
 });
 
-
 /* GET all media and POST new media */
 router.route('/books')
     .get(function (req, res) { // returns all media
